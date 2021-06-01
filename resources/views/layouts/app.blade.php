@@ -18,10 +18,11 @@
 </head>
 
 <body>
-
+    @include('includes.header')
     <main id="main">
         @yield('content')
     </main>
+    @include('includes.footer')
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <script src="{{ asset('assets/js/agencyList.js') }}"></script>
